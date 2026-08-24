@@ -2,6 +2,8 @@
 
 Portfolio profesional estático, publicado en Netlify.
 
+[Ver portfolio publicado](https://jonathanbender.netlify.app)
+
 ## Proyectos presentados
 
 - ACORIA Gestión: aplicación offline-first para comercios.
