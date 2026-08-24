@@ -19,7 +19,6 @@ Portfolio profesional estático, publicado en Netlify.
 
 Abrir `index.html` en un navegador o iniciar un servidor estático.
 
-## Privacidad
+## Contacto y privacidad
 
-El sitio no publica teléfono, domicilio exacto, documentos, salario ni credenciales. El contacto se realiza mediante LinkedIn.
-
+El sitio publica los canales profesionales autorizados por Jonathan y permite descargar su CV en español e inglés. No publica DNI, CUIL, domicilio exacto, información bancaria, recibos de sueldo, contraseñas ni credenciales.
