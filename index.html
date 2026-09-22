@@ -1,189 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de Jonathan Alexander Bender, desarrollador Full Stack Junior de Argentina. Proyectos con React, TypeScript, Electron, Node.js y SQLite.">
-    <meta name="theme-color" content="#062f35">
-    <meta property="og:title" content="Jonathan Alexander Bender | Full Stack Junior">
-    <meta property="og:description" content="Proyectos reales, experiencia operativa y desarrollo de soluciones para comercios.">
-    <meta property="og:type" content="website">
-    <title>Jonathan Alexander Bender | Full Stack Junior</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23f6c453'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Arial' font-size='23' font-weight='700' fill='%23102326'%3EJB%3C/text%3E%3C/svg%3E">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <a class="saltar-contenido" href="#contenido">Saltar al contenido</a>
-
-    <header class="encabezado">
-        <a class="marca" href="#inicio" aria-label="Ir al inicio">
-            <span class="marca-iniciales" aria-hidden="true">JB</span>
-            <span>Jonathan Bender</span>
-        </a>
-        <p><span class="punto-disponible" aria-hidden="true"></span>Disponible para oportunidades remotas</p>
-    </header>
-
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor" aria-label="Navegación principal">
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#tecnologias">Tecnologías</a>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </div>
-
-    <main id="contenido">
-        <section class="hero" id="inicio">
-            <div class="contenido-hero">
-                <div class="marco-foto">
-                    <img class="foto-perfil" src="img/foto-jonathan-bender.jpg" alt="Retrato profesional de Jonathan Alexander Bender" width="720" height="960" decoding="async" fetchpriority="high">
-                </div>
-                <p class="etiqueta">Portfolio profesional</p>
-                <h1>Jonathan Alexander Bender</h1>
-                <h2>Desarrollador Full Stack Junior</h2>
-                <p class="bajada">Construyo herramientas claras y confiables para resolver problemas reales de comercios y personas.</p>
-                <p class="ubicacion">Buenos Aires, Argentina · Modalidad remota</p>
-                <div class="acciones">
-                    <a class="boton" href="#proyectos">Ver proyectos</a>
-                    <a class="boton boton-secundario" href="https://www.linkedin.com/in/jonathan-alexander-bender-2b8660430/" target="_blank" rel="noopener noreferrer">Ver LinkedIn</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="contenedor seccion sobre-mi" id="sobre-mi">
-            <div>
-                <p class="eyebrow">Sobre mí</p>
-                <h2>Software pensado para quienes realmente lo usan</h2>
-            </div>
-            <div class="sobre-mi-contenido">
-                <p>Soy desarrollador autodidacta y continúo formándome mientras trabajo. Mi experiencia administrativa y operativa me ayuda a entender procesos, detectar riesgos y traducir necesidades concretas en soluciones simples.</p>
-                <p>Trabajo con React, TypeScript, Electron, Node.js y SQLite. Me importa que cada cambio sea verificable, que los datos sean consistentes y que una persona sin conocimientos técnicos pueda usar el producto con confianza.</p>
-            </div>
-        </section>
-
-        <section class="fondo-suave" aria-labelledby="titulo-aportes">
-            <div class="contenedor seccion">
-                <p class="eyebrow">Perfil</p>
-                <h2 id="titulo-aportes">Lo que puedo aportar</h2>
-                <div class="tarjetas">
-                    <article class="tarjeta">
-                        <span class="numero" aria-hidden="true">01</span>
-                        <h3>Producto completo</h3>
-                        <p>Desde la interfaz y la lógica de negocio hasta la base de datos, el escritorio y la publicación.</p>
-                    </article>
-                    <article class="tarjeta">
-                        <span class="numero" aria-hidden="true">02</span>
-                        <h3>Criterio operativo</h3>
-                        <p>Experiencia real con caja, cobranzas, conciliaciones, atención al público y sistemas de gestión.</p>
-                    </article>
-                    <article class="tarjeta">
-                        <span class="numero" aria-hidden="true">03</span>
-                        <h3>Aprendizaje constante</h3>
-                        <p>Investigo, documento, pruebo y pido revisión. No invento resultados ni oculto los límites de una solución.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="proyectos" id="proyectos">
-            <div class="contenedor seccion">
-                <p class="eyebrow eyebrow-claro">Proyectos destacados</p>
-                <h2>Trabajo aplicado</h2>
-
-                <div class="proyectos-grid">
-                    <article class="proyecto-card proyecto-principal">
-                        <div class="proyecto-cabecera">
-                            <div>
-                                <p class="proyecto-tipo">Aplicación de escritorio y web</p>
-                                <h3>ACORIA Gestión</h3>
-                            </div>
-                            <span class="estado">En desarrollo activo</span>
-                        </div>
-                        <p>Sistema de gestión <em>offline-first</em> para comercios argentinos. Integra ventas, stock, clientes, caja, cuentas corrientes, usuarios, permisos, auditoría y sincronización.</p>
-                        <div class="chips" aria-label="Tecnologías de ACORIA">
-                            <span>React</span><span>TypeScript</span><span>Electron</span><span>Node.js</span><span>SQLite</span><span>Pruebas automatizadas</span>
-                        </div>
-                        <p class="aclaracion">El código permanece privado mientras completo su revisión de seguridad. Disponible para demostración técnica.</p>
-                    </article>
-
-                    <article class="proyecto-card">
-                        <div class="proyecto-cabecera">
-                            <div>
-                                <p class="proyecto-tipo">Caso real</p>
-                                <h3>Velvet Hogar</h3>
-                            </div>
-                            <span class="estado estado-publicado">Publicado</span>
-                        </div>
-                        <p>Sitio comercial para un emprendimiento familiar, con catálogo y un panel administrativo para gestionar productos, precios, stock y pedidos sin depender de un programador.</p>
-                        <div class="chips" aria-label="Tecnologías de Velvet Hogar">
-                            <span>Next.js</span><span>GitHub</span><span>Netlify</span><span>Diseño responsive</span>
-                        </div>
-                        <a class="enlace-proyecto" href="https://velvethome.netlify.app" target="_blank" rel="noopener noreferrer">Visitar Velvet Hogar →</a>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="contenedor seccion competencias" id="tecnologias" aria-labelledby="titulo-competencias">
-            <p class="eyebrow">Tecnologías</p>
-            <h2 id="titulo-competencias">Herramientas que utilizo</h2>
-            <div class="grupos-tecnologias">
-                <div>
-                    <h3>Frontend</h3>
-                    <div class="lista-competencias"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span></div>
-                </div>
-                <div>
-                    <h3>Aplicaciones y datos</h3>
-                    <div class="lista-competencias"><span>Electron</span><span>Node.js</span><span>SQLite</span><span>SQL</span><span>APIs</span></div>
-                </div>
-                <div>
-                    <h3>Flujo de trabajo</h3>
-                    <div class="lista-competencias"><span>Git</span><span>GitHub</span><span>Netlify</span><span>Pruebas automatizadas</span><span>n8n</span><span>IA aplicada al desarrollo</span></div>
-                </div>
-            </div>
-        </section>
-
-        <section class="fondo-suave" id="experiencia">
-            <div class="contenedor seccion experiencia-relevante">
-                <div>
-                    <p class="eyebrow">Experiencia transferible</p>
-                    <h2>Administración, operaciones y sistemas</h2>
-                </div>
-                <div>
-                    <p>Desde 2025 trabajo en administración y atención operativa, utilizando sistemas de gestión para pagos, cobranzas, cuentas, conciliaciones y resolución de reclamos.</p>
-                    <p>Esa cercanía con procesos reales alimenta mis decisiones técnicas: entiendo por qué una cifra debe ser consistente, una acción sensible debe quedar auditada y una interfaz tiene que ser clara bajo presión.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="contacto" id="contacto">
-            <div class="contenedor seccion contacto-grid">
-                <div>
-                    <p class="eyebrow eyebrow-claro">Contacto</p>
-                    <h2>¿Trabajamos juntos?</h2>
-                    <p>Busco una oportunidad remota como desarrollador junior donde pueda aportar responsabilidad, criterio práctico y muchas ganas de seguir creciendo.</p>
-                    <div class="contacto-directo">
-                        <a href="mailto:alexanderbenderjonathan22@gmail.com">alexanderbenderjonathan22@gmail.com</a>
-                        <a href="https://www.linkedin.com/in/jonathan-alexander-bender-2b8660430/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                        <a href="https://github.com/alexanderbenderjonathan22-art" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    </div>
-                </div>
-                <div class="formulario">
-                    <p>Por seguridad, el contacto inicial se realiza por correo electrónico o LinkedIn.</p>
-                    <a class="boton w-100" href="mailto:alexanderbenderjonathan22@gmail.com">Enviar correo</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>© 2026 Jonathan Alexander Bender · Buenos Aires, Argentina</p>
-    </footer>
-    <script src="js/app.js"></script>
-</body>
-</html>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Soluciones digitales y tecnología en Copetonas: trámites online, soporte tecnológico, páginas web, automotor y soluciones para comercios.">
+<meta name="theme-color" content="#073b46"><meta property="og:title" content="SOLUCIONES | Servicios Digitales & Tecnología"><meta property="og:description" content="Ayuda práctica para trámites, tecnología, páginas web y comercios en Copetonas.">
+<title>SOLUCIONES | Servicios Digitales & Tecnología en Copetonas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/normalize.css"><link rel="stylesheet" href="css/styles.css">
+</head><body>
+<header><div class="wrap top"><a class="brand" href="#inicio"><b>◉ SOLUCIONES</b><span>Servicios Digitales & Tecnología</span></a><a class="mini" href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20necesito%20hacerte%20una%20consulta">WhatsApp 298 354 8917</a></div></header>
+<nav><div class="wrap nav"><a href="#servicios">Servicios</a><a href="#como">Cómo trabajo</a><a href="#acoria">ACORIA</a><a href="#quien">Quién te atiende</a><a href="#contacto">Contacto</a></div></nav>
+<main id="inicio">
+<section class="hero"><div class="wrap hero-grid"><div><p class="tag">COPETONAS · PRESENCIAL Y REMOTO</p><h1>¿Necesitás ayuda?</h1><h2>Contame qué necesitás y buscamos la solución.</h2><p>Trámites, tecnología, páginas web y soluciones para tu día a día. Te explico qué se puede hacer y cuánto cuesta antes de comenzar.</p><div class="actions"><a class="btn" href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20necesito%20hacerte%20una%20consulta">Consultar por WhatsApp</a><a class="btn ghost" href="#servicios">Ver servicios</a></div></div><div class="portrait"><img src="img/foto-jonathan-bender.jpg" alt="Jonathan Alexander Bender"><p><b>Jonathan Alexander Bender</b><br>Atención y soporte personalizado</p></div></div></section>
+<section class="section wrap" id="servicios"><p class="eyebrow">SERVICIOS</p><h2>Ayuda práctica, sin vueltas</h2><p class="intro">Los valores son orientativos. El precio final depende del tiempo y la complejidad; siempre te paso presupuesto antes de empezar.</p><div class="cards">
+<article><span>📄</span><h3>Trámites online</h3><p>ANSES, PAMI, Mi Argentina, turnos, formularios, ARBA, municipalidad, certificados, constancias y otros trámites digitales.</p><b>Desde $7.000</b><a href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20necesito%20ayuda%20con%20un%20tr%C3%A1mite">Consultar →</a></article>
+<article><span>💻</span><h3>Tecnología</h3><p>PC y notebooks, celulares, impresoras, Wi‑Fi, Smart TV, aplicaciones, programas, cuentas y configuración.</p><b>Desde $15.000</b><a href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20necesito%20ayuda%20con%20tecnolog%C3%ADa">Consultar →</a></article>
+<article><span>🌐</span><h3>Páginas web</h3><p>Sitios profesionales, tiendas online, dominio y hosting, correo corporativo, presencia en Google y mantenimiento.</p><b>Desde $80.000</b><a href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20quiero%20consultar%20por%20una%20p%C3%A1gina%20web">Consultar →</a></article>
+<article><span>🚗</span><h3>Automotor</h3><p>Asistencia administrativa y digital en transferencias, informes de dominio, altas/bajas, cédulas, duplicados, turnos y formularios.</p><b>Desde $40.000</b><a href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20necesito%20ayuda%20con%20un%20tr%C3%A1mite%20del%20automotor">Consultar →</a></article>
+<article><span>📝</span><h3>Trabajo y estudios</h3><p>CV, postulaciones, inscripciones, formularios, plataformas y acompañamiento digital.</p><b>Desde $15.000</b><a href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20necesito%20ayuda%20con%20trabajo%20o%20estudios">Consultar →</a></article>
+<article class="safe"><span>🔐</span><h3>Ayuda digital segura</h3><p>Puedo guiarte con bancos y billeteras. Tus contraseñas, PIN, token, códigos y confirmaciones siempre los ingresás vos.</p><b>Tu información es tuya</b><a href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20necesito%20orientaci%C3%B3n%20digital">Consultar →</a></article>
+</div></section>
+<section class="soft section" id="como"><div class="wrap"><p class="eyebrow">CÓMO TRABAJO</p><h2>Primero entendemos el problema</h2><div class="steps"><div><b>1</b><h3>Me contás</h3><p>Explicame qué necesitás por WhatsApp o personalmente.</p></div><div><b>2</b><h3>Lo evalúo</h3><p>Te digo qué puedo hacer, el costo y qué información necesito.</p></div><div><b>3</b><h3>Lo resolvemos</h3><p>Si estás de acuerdo con el presupuesto, avanzamos.</p></div></div></div></section>
+<section class="acoria section" id="acoria"><div class="wrap acoria-grid"><div><p class="eyebrow light">SOLUCIONES PARA COMERCIOS</p><h2>ACORIA</h2><p>Una solución de gestión pensada para ordenar ventas, stock, clientes y operación del comercio, con reportes, integraciones y nuevas funciones en desarrollo.</p><ul><li>Ventas, stock y clientes</li><li>Reportes y gestión</li><li>Integración con WhatsApp y futuras funciones</li><li>Instalación, configuración y capacitación</li></ul></div><div class="price"><small>Implementación desde</small><strong>$100.000</strong><p>Según módulos y necesidades del negocio.</p><a class="btn" href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20quiero%20conocer%20ACORIA%20para%20mi%20comercio">Consultar ACORIA</a></div></div></section>
+<section class="section wrap" id="quien"><div class="about"><img src="img/foto-jonathan-bender.jpg" alt="Jonathan Alexander Bender"><div><p class="eyebrow">QUIÉN TE ATIENDE</p><h2>Jonathan Alexander Bender</h2><p>Atención y soporte personalizado. La idea es simple: escuchar qué necesitás, evaluar si puedo ayudarte y darte un presupuesto claro antes de hacer el trabajo.</p><p><b>Atención presencial en Copetonas y también de forma remota.</b></p></div></div></section>
+<section class="soft section"><div class="wrap"><p class="eyebrow">PREGUNTAS FRECUENTES</p><h2>Antes de consultar</h2><div class="faq"><details><summary>¿Cuánto cuesta?</summary><p>Depende del trabajo. Los precios publicados son “desde” y te confirmo el valor antes de comenzar.</p></details><details><summary>¿Tengo que ir personalmente?</summary><p>No siempre. Muchos trabajos pueden resolverse de forma remota; otros requieren atención presencial.</p></details><details><summary>¿Hacés cualquier trámite?</summary><p>Primero lo evalúo. Si está dentro de los servicios que puedo realizar, te explico cómo avanzar. Algunos procedimientos requieren que el titular o un profesional habilitado intervenga personalmente.</p></details><details><summary>¿Qué horarios manejás?</summary><p>Lunes a viernes después de las 18 hs. Sábados, domingos y feriados: consultar disponibilidad.</p></details></div></div></section>
+<section class="contact section" id="contacto"><div class="wrap contact-grid"><div><p class="eyebrow light">CONTACTO</p><h2>¿Qué necesitás resolver?</h2><p>Mandame un mensaje contándome el problema. Lo evalúo y te respondo con la mejor forma de avanzar.</p></div><div class="contact-box"><a class="btn" href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20necesito%20hacerte%20una%20consulta">WhatsApp · 298 354 8917</a><a href="mailto:alexanderbenderjonathan22@gmail.com">alexanderbenderjonathan22@gmail.com</a><p>Lun–Vie después de 18 hs<br>Sáb, dom y feriados: consultar disponibilidad<br>Copetonas y alrededores · Presencial y remoto</p></div></div></section>
+</main><footer>© 2026 SOLUCIONES · Jonathan Alexander Bender · Copetonas</footer><a class="float" aria-label="Consultar por WhatsApp" href="https://wa.me/542983548917?text=Hola%20Jonathan%2C%20necesito%20hacerte%20una%20consulta">WhatsApp</a>
+</body></html>
